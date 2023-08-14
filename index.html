@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset='utf-8'>
+    <link rel='stylesheet' href="static/css/style.css">
+    <title>KuFaR</title>
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+          <div class="header__inner">
+            <div class="header__logo">KuFaR</div>
+            <nav>
+                <a class="nav__link" href="#">PLACE  AN  AD</a>
+                <a class="nav__link" href="comein.html">TO  COME  IN</a>
+                <a class="nav__hpoto" href="#"><img src="static/images/1.png" width="40px" height="40px"></a>
+            </nav>
+          </div>
+    </div>
+</header>
+
+<div class="intro">
+    <div class="container">
+        <div class="intro__inner">
+            <h1 class="intro__title">KuFaR</h1>
+            <h2 class="intro__under">Sell AND Buy</h2>
+            <div class="search">
+                <input type="text" class="search-field" placeholder="Введите запрос">
+                <img src="static/images/2.png" alt="" class="search-icon">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="salesman">
+    <div class="salesman-btn">
+        <button type="button" class="status" onclick="login()">Покупатель</button>
+        <button type="button" class="status" onclick="register()">Продавец</button>
+    </div>
+    <form id="register" class="product">
+        <input type="text" class="product-field" placeholder="Название" required>
+        <input type="text" class="product-field" placeholder="Описани" required>
+        <input type="text" class="product-field" placeholder="Цена" required>
+        <input type="image" class="product-field" placeholder="Фото" required>
+        <button type="submit" class="submit-btn">Опубликавац</button>
+    </form>
+</div>
+
+
+</body>
+</html>
